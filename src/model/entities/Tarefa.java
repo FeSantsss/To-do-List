@@ -3,7 +3,7 @@ package model.entities;
 import java.time.LocalDate;
 
 public class Tarefa {
-	private Integer ID;
+	private Integer ID = 0;
 	private String nomeDaTarefa;
 	private String descricao;
 	private LocalDate dataDeCriacao;
