@@ -56,4 +56,18 @@ public class Tarefa {
 	public void setStatus(boolean status) {
 		this.status = status;
 	}
+	
+	@Override
+	public String toString() {
+		return "Tarefa [ID = " 
+				+ ID 
+				+ ", Tarefa: " 
+				+ nomeDaTarefa 
+				+ ", Descrição: " 
+				+ descricao 
+				+ ", Data: " 
+				+ dataDeCriacao 
+				+ " - Status: " 
+				+ (status ? "Concluída" : "Pendente") + "]";
+	}
 }

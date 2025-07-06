@@ -11,14 +11,16 @@ public class MenuTarefa {
 				System.out.println(
 						"\n--- MENU DE TAREFAS ---\n" 
 						+ "1 - Adicionar Tarefa\n" 
-						+ "2 - Listar Tarefas\n"
-						+ "3 - Filtrar Tarefas\n" 
-						+ "4 - Excluir Tarefa\n" 
-						+ "5 - Sair");
+						+ "2 - Listar Tarefas\n" 
+						+ "3 - Marcar Tarefa como Concluída\n"
+						+ "4 - Marcar Tarefa como Não Concluída\n"
+						+ "5 - Filtrar Tarefas\n" 
+						+ "6 - Excluir Tarefa\n" 
+						+ "7 - Sair");
 				System.out.print("Escolha uma opção: ");
 				int opcao = sc.nextInt();
 				
-				//posteriormente: switch
+				
 
 				if (continua) {
 					System.out.print("Deseja continuar? (s/n): ");
