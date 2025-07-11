@@ -8,7 +8,6 @@ public class Program {
 		MenuTarefa menu = new MenuTarefa();
 		
 		System.out.println("Bem-vindo ao Gerenciador de Tarefas!");
-		System.out.println("Escolha uma opção:");
 		
 		menu.executar();
 	
